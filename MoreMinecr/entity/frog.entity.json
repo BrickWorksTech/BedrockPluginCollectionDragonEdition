@@ -1,0 +1,40 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mp:frog",
+            "materials": {
+                "default": "skeleton"
+            },
+            "textures": {
+                "default": "textures/entity/frog"
+            },
+            "geometry": {
+                "default": "geometry.frog"
+            },
+            "animations": {
+                "walk": "animation.frog.walk",
+                "humanoid_big_head": "animation.humanoid.big_head",
+                "look_at_target": "animation.humanoid.look_at_target.default.v1.0"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "walk": "query.modified_move_speed"
+                      },
+                      {
+                        "humanoid_big_head": "query.is_baby"
+                      },
+                      "look_at_target"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.frog"
+            ],
+            "spawn_egg": {
+                "base_color": "#228d02",
+                "overlay_color": "#8afd55"
+            }
+        }
+    }
+}

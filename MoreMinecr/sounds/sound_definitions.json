@@ -1,0 +1,69 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "mob.hamster.idle": {
+            "category": "neutral",
+            "max_distance": 12.0,
+            "sounds": [
+                "sounds/mob/hamster/hamster_squeak_1",
+                "sounds/mob/hamster/hamster_squeak_2"
+            ]
+        },
+        "mob.hamster.death": {
+            "category": "neutral",
+            "max_distance": 12.0,
+            "sounds": [
+                "sounds/mob/hamster/hamster_death"
+            ]
+        },
+        "mob.hamster.hurt": {
+            "category": "neutral",
+            "max_distance": 12.0,
+            "sounds": [
+                "sounds/mob/hamster/hamster_squeak_1"
+            ]
+        },
+        "mob.raccoon.idle": {
+            "category": "neutral",
+            "max_distance": 12,
+            "sounds": [
+                "sounds/mob/raccoon/raccoon_idle",
+                "sounds/mob/raccoon/raccoon_idle1"
+            ]
+        },
+        "mob.raccoon.death": {
+            "sounds": [
+                "sounds/mob/raccoon/raccoon_death"
+            ],
+            "category": "neutral",
+            "max:distance": 12
+        },
+        "mob.raccoon.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/raccoon/raccoon_idle"
+            ]
+        },
+        "mob.frog.idle": {
+            "category": "neutral",
+            "max_distance": 12,
+            "sounds": [
+                "sounds/mob/frog/frog_idle",
+                "sounds/mob/frog/frog_idle1"
+            ]
+        },
+        "mob.frog.death": {
+            "sounds": [
+                "sounds/mob/frog/frog_death"
+            ],
+            "category": "neutral",
+            "max:distance": 12
+        },
+        "mob.frog.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/frog/frog_idle1"
+            ]
+        }
+    }
+}

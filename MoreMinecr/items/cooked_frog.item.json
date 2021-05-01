@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mp:cooked_frog",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "cooked_frog",
+            "minecraft:use_animation": "eat",
+            "minecraft:render_offsets": "apple"
+        }
+    }
+}

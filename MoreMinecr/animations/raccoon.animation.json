@@ -1,0 +1,77 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.raccoon.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"tail": {
+					"rotation": {
+						"0.0": [0, -20, 0],
+						"0.52": [0, 20, 0],
+						"1.0": [0, -20, 0]
+					}
+				},
+				"front_left_leg": {
+					"rotation": {
+						"0.0": [40, 0, 0],
+						"0.52": [-40, 0, 0],
+						"1.0": [40, 0, 0]
+					}
+				},
+				"back_left_leg": {
+					"rotation": {
+						"0.0": [-40, 0, 0],
+						"0.52": [40, 0, 0],
+						"1.0": [-40, 0, 0]
+					}
+				},
+				"front_right_leg": {
+					"rotation": {
+						"0.0": [40, 0, 0],
+						"0.52": [-40, 0, 0],
+						"1.0": [40, 0, 0]
+					}
+				},
+				"back_right_leg": {
+					"rotation": {
+						"0.0": [-40, 0, 0],
+						"0.52": [40, 0, 0],
+						"1.0": [-40, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.raccoon.sitting": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-6, 0, 0],
+					"position": [0, 1, 1]
+				},
+				"body": {
+					"rotation": [-45, 0, 0],
+					"position": [0, -1, 0]
+				},
+				"tail": {
+					"rotation": [1, 0, 0],
+					"position": [0, -2, -1]
+				},
+				"front_left_leg": {
+					"position": [0, 0, 0]
+				},
+				"front_right_leg": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -2, -1]
+				},
+				"back_left_leg": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -2, -1]
+				},
+				"back_right_leg": {
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

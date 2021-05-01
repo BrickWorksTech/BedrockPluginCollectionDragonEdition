@@ -1,0 +1,24 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.hamster": {
+        "arrays": {
+          "textures": {
+            "Array.skins":[
+              "Texture.hamsterdef",
+              "Texture.hamstergrey",
+              "Texture.hamsterblack"
+            ]
+          }
+        },
+        "part_visibility": [
+          {
+            "back*": "!query.is_sitting"
+          }
+        ],
+        "geometry": "Geometry.default",
+        "materials": [{ "*": "Material.default" }],
+        "textures": [ "Array.skins[query.variant]" ]
+      }
+    }
+  }

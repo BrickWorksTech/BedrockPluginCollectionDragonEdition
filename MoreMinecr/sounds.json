@@ -1,0 +1,62 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "mp:hamster":{
+                "volume":0.6,
+                "pitch":[
+                    1.0,
+                    1.0
+                ],
+                "events": {
+                    "ambient": "mob.hamster.idle",
+                    "hurt": "mob.hamster.hurt",
+                    "death": "mob.hamster.death",
+                    "step":{
+                        "sound": "mob.chicken.step",
+                        "volume":0.12,
+                        "pitch":1
+                    }
+                }
+            },
+            "mp:raccoon":{
+                "volume":0.7,
+                "pitch":[
+                    1.0,
+                    1.0
+                ],
+                "events": {
+                    "ambient": "mob.raccoon.idle",
+                    "hurt": "mob.raccoon.hurt",
+                    "death":{
+                        "sound": "mob.raccoon.death",
+                        "pitch":1,
+                        "volume":0.5
+                    },
+                    "step" :{
+                        "sound": "mob.pig.step",
+                        "volume":0.2,
+                        "pitch":1
+                    }
+                }
+            },
+            "mp:frog":{
+                "volume":1,
+                "pitch":1,
+                "events": {
+                    "ambient": "mob.frog.idle",
+                    "hurt": "mob.frog.hurt",
+                    "death":{
+                        "sound": "mob.frog.death",
+                        "pitch":1,
+                        "volume":1
+                    },
+                    "step":{
+                        "sound": "mob.rabbbit.step",
+                        "volume":0.3,
+                        "pitch":1
+                    }
+                }
+            }
+        }
+    }
+}

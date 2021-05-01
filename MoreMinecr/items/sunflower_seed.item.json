@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mp:sunflower_seed",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "sunflower_seed",
+            "minecraft:use_animation": "eat",
+            "minecraft:render_offsets": "apple"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mp:raccoon",
+            "materials": {
+                "default": "skeleton"
+            },
+            "textures": {
+                "default": "textures/entity/raccoon"
+            },
+            "geometry": {
+                "default": "geometry.raccoon"
+            },
+            "animations": {
+                "walk": "animation.raccoon.walk",
+                "humanoid_big_head": "animation.humanoid.big_head",
+                "look_at_target": "animation.humanoid.look_at_target.default.v1.0",
+                "sit": "animation.raccoon.sitting"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "walk": "query.modified_move_speed"
+                      },
+                      {
+                        "humanoid_big_head": "query.is_baby"
+                      },
+                      {
+                        "sit": "query.is_sitting"
+                      },
+                      "look_at_target"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.raccoon"
+            ],
+            "spawn_egg": {
+                "base_color": "#444d4c",
+                "overlay_color": "#000000"
+            }
+        }
+    }
+}

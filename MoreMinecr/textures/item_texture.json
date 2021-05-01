@@ -1,0 +1,15 @@
+{
+    "resource_pack_name": "mp",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "sunflower_seed":{
+            "textures" : "textures/items/sunflower_seed"
+        },
+        "dead_frog":{
+            "textures": "textures/items/dead_frog"
+        },
+        "cooked_frog":{
+            "textures": "textures/items/cooked_frog"
+        }
+    }
+}

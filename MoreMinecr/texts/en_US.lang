@@ -1,0 +1,11 @@
+item.spawn_egg.entity.mp:hamster.name=Spawn Hamster
+item.mp:sunflower_seed.name=Sunflower Seed
+entity.mp:hamster.name=Hamster
+entity.mp:raccoon.name=Raccoon
+item.spawn_egg.entity.mp:raccoon.name=Spawn Raccoon
+entity.mp:frog.name=Frog
+item.spawn_egg.entity.mp:frog.name=Spawn Frog
+item.mp:dead_frog.name=Raw Frog
+item.mp:cooked_frog.name=Cooked Frog
+entity.mp:ferret.name=Ferret
+item.spawn_egg.entity.mp:ferret.name=Spawn Ferret

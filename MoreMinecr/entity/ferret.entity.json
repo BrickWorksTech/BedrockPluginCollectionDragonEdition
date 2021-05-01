@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mp:ferret",
+        "materials": {
+          "default": "skeleton"
+        },
+        "textures": {
+          "ferretdef": "textures/entity/ferret",
+          "ferretbrown": "textures/entity/ferret1",
+          "ferretgray": "textures/entity/ferret2"
+        },
+        "geometry": {
+          "default": "geometry.ferret"
+        },
+        "animations": {
+          "walk": "animation.ferret.walk",
+          "look_at_target": "animation.humanoid.look_at_target.default.v1.0",
+          "sit": "animation.ferret.sitting"
+        },
+        "scripts": {
+          "animate": [
+            {
+              "walk": "query.modified_move_speed"
+            },
+            {
+              "sit": "query.is_sitting"
+            },
+            "look_at_target"
+          ]
+        },
+        "render_controllers": [
+          "controller.render.ferret"
+        ],
+        "enable_attachables": false,
+        "spawn_egg": {
+          "base_color": "#ffffff",
+          "overlay_color": "#4e2e13"
+        }
+      }
+    }
+  }
